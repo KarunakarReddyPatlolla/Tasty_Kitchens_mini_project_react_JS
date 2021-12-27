@@ -10,9 +10,9 @@ import './index.css'
 export default function Footer() {
   return (
     <div className="footer-container">
-      <div className="container">
+      <div className="footer-logo-container">
         <img
-          src="https://res.cloudinary.com/dleaoaoxz/image/upload/v1640589095/Group_7420_nnlqj0.jpg"
+          src="https://res.cloudinary.com/dleaoaoxz/image/upload/v1640612315/Group_7420_1_fhspva.svg"
           alt="website-footer-logo"
           className="website-logo-footer"
         />

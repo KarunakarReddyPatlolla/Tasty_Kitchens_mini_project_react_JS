@@ -38,10 +38,10 @@ const Navbar = props => {
 
   return (
     <div className="navbar">
-      <div className="container">
+      <div className="logo-container">
         <Link to="/" className="nav-link">
           <img
-            src="https://res.cloudinary.com/dleaoaoxz/image/upload/v1640589175/Group_7420_1_ajnrke.jpg"
+            src="https://res.cloudinary.com/dleaoaoxz/image/upload/v1640612186/Group_7420_w55rvv.svg"
             alt="website logo"
             className="website-logo"
           />
@@ -54,7 +54,7 @@ const Navbar = props => {
             Home
           </li>
         </Link>
-        <Link to="/" className="nav-link">
+        <Link to="/cart" className="nav-link">
           <li className="text" style={{color: textColor('/cart')}}>
             Cart {renderCartItemsCount()}
           </li>

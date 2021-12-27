@@ -56,11 +56,11 @@ class Login extends Component {
     }
 
     return (
-      <>
-        <div className="bg-container">
+      <div className="login-page-main-container">
+        <div className="login-page-container">
           <form className="login-container" onSubmit={this.onSubmitForm}>
             <img
-              src="https://res.cloudinary.com/dleaoaoxz/image/upload/v1640589175/Group_7420_1_ajnrke.jpg"
+              src="https://res.cloudinary.com/dleaoaoxz/image/upload/v1640612186/Group_7420_w55rvv.svg"
               alt="website logo"
               className="website-logo"
             />
@@ -99,7 +99,7 @@ class Login extends Component {
           alt="website login"
           className="login-image"
         />
-      </>
+      </div>
     )
   }
 }
