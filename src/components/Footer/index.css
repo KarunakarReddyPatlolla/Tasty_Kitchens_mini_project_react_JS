@@ -1,0 +1,66 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #0f172a;
+  min-width: 100vw;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.website-logo-footer {
+  background-color: transparent;
+  height: 60px;
+  width: 80px;
+  margin: 5px;
+  border-radius: 0px;
+  align-self: center;
+}
+
+.website-name-footer {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 32px;
+  margin: 10px;
+  align-self: center;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+}
+
+.footer-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  margin: 10px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Light / blue-gray / 900 */
+
+  color: #ffffff;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
