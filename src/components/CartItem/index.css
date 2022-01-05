@@ -32,11 +32,6 @@
   color: #183b56;
   margin-left: 70px;
 }
-@media screen and (max-width: 786px) {
-  .cart-item-desktop-name {
-    display: none;
-  }
-}
 
 .cart-item-mobile-name {
   font-family: DM Sans;

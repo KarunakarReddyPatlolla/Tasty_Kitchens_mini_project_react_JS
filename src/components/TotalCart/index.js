@@ -25,7 +25,7 @@ const TotalCart = props => {
             <hr className="cart-hr-line" />
             <div className="cart-total-container">
               <h1 className="total-text">Order Total:</h1>
-              <div className="total-container" testid="total-price">
+              <div className="total-container">
                 <p testid="total-price" className="total-price">
                   <FaRupeeSign size={18} /> {totalOrderCost}
                 </p>

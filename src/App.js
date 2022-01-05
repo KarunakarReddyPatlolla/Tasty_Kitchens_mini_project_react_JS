@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 
 import Login from './components/Login'
 import NotFound from './components/NotFound'
@@ -109,7 +109,7 @@ class App extends Component {
     localStorage.setItem('cartData', JSON.stringify(cartList))
 
     return (
-      <BrowserRouter>
+      <>
         <CartContext.Provider
           value={{
             cartList,
@@ -133,7 +133,7 @@ class App extends Component {
             <Redirect to="bad-path" />
           </Switch>
         </CartContext.Provider>
-      </BrowserRouter>
+      </>
     )
   }
 }
